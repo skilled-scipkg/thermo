@@ -347,7 +347,7 @@ max-complexity = 10
 "docs/**/*.ipynb" = ["S101", "F403", "F405", "PT011", "B017", "TRY002"]
 
 [tool.pytest.ini_options]
-addopts = "--doctest-glob='*.rst' --ignore='setup.py' --ignore='chemical_compare.py' --doctest-modules"
+addopts = "--doctest-glob='*.rst'"
 norecursedirs = [".cache", ".git", "htmlcov", "notebooks", "dist", "build", "*.egg-info", ".tox", "surfaces", "prof", "benchmarks", "dev", "_build", "_custom_build", "__pycache__"]
 doctest_optionflags = ["NORMALIZE_WHITESPACE"]
 markers = [

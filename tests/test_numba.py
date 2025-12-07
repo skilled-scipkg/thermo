@@ -36,14 +36,14 @@ from thermo.test_utils import check_np_output_activity
 try:
     import numba
     import numba.core
+    if numba is not None:
+        import chemicals.numba
+
+        import thermo.numba
 except:
     numba = None
 import numpy as np
 
-if numba is not None:
-    import chemicals.numba
-
-    import thermo.numba
 
 jit_disabled = os.environ.get('NUMBA_DISABLE_JIT') == '1'
 
