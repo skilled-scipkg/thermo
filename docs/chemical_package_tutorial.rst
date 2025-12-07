@@ -4,7 +4,7 @@ Introduction to ChemicalConstantsPackage and PropertyCorrelationsPackage
 .. contents:: :local:
 
 These two objects are designed to contain information needed by flash algorithms.
-In the first iteration of thermo, data was automatically looked up in databases and there was no way to replace that data. Thermo now keeps data and algorithms completely separate. This has also been very helpful to make unit tests that do not change their results.
+In the first iteration of Thermo, data was automatically looked up in databases and there was no way to replace that data. Thermo now keeps data and algorithms completely separate. This has also been very helpful to make unit tests that do not change their results.
 
 There are five places to configure the flash and phase infrastructure:
 
