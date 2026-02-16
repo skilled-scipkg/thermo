@@ -1,0 +1,19 @@
+{
+  "core_skills": [
+    "thermo-inputs-and-modeling",
+    "thermo-getting-started",
+    "thermo-theory-and-methods",
+    "thermo-developer-guide",
+    "thermo-api-and-scripting",
+    "thermo-advanced-topics"
+  ],
+  "evidence_dir": "skills/.evidence",
+  "files": [
+    "skills/.evidence/thermo-inputs-and-modeling.md",
+    "skills/.evidence/thermo-getting-started.md",
+    "skills/.evidence/thermo-theory-and-methods.md",
+    "skills/.evidence/thermo-developer-guide.md",
+    "skills/.evidence/thermo-api-and-scripting.md",
+    "skills/.evidence/thermo-advanced-topics.md"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "compiled_package_id": "thermo",
+  "evidence": {
+    "core_skills": [
+      "thermo-inputs-and-modeling",
+      "thermo-getting-started",
+      "thermo-theory-and-methods",
+      "thermo-developer-guide",
+      "thermo-api-and-scripting",
+      "thermo-advanced-topics"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/thermo-inputs-and-modeling.md",
+      "skills/.evidence/thermo-getting-started.md",
+      "skills/.evidence/thermo-theory-and-methods.md",
+      "skills/.evidence/thermo-developer-guide.md",
+      "skills/.evidence/thermo-api-and-scripting.md",
+      "skills/.evidence/thermo-advanced-topics.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Primary implementation lives in the top-level thermo/ package (non-default source dir name for the generator).",
+      "Tutorial notebooks and worked examples are under docs/Examples; plotting example scripts are under docs/plots.",
+      "A docs-related test file exists at docs/test_documentation.py and root test config at conftest.py."
+    ],
+    "package_name": "thermo",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "thermo"
+    ],
+    "test_dirs": [
+      "tests"
+    ],
+    "tutorial_dirs": [
+      "docs/Examples",
+      "docs/plots"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/thermo-thermo",
+  "validation": {
+    "core_skills_checked": [
+      "thermo-theory-and-methods",
+      "thermo-inputs-and-modeling",
+      "thermo-getting-started",
+      "thermo-developer-guide",
+      "thermo-api-and-scripting",
+      "thermo-advanced-topics"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/thermo-thermo/skills/thermo-getting-started/references/source_map.md: broken path references: test_flash_pure.py, test_flash_vl.py"
+    ],
+    "index_skills": [
+      "thermo-index"
+    ],
+    "ok": false,
+    "skills_total": 7,
+    "source_links_total": 47,
+    "topic_skills": 6,
+    "warnings": []
+  }
+}
